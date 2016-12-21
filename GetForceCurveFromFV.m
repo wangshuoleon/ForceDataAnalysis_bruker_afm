@@ -1,4 +1,4 @@
-function [Xtrace, Xretrace,Ytrace, Yretrace, xLabel, yLabel,SamplesPerLine,NumberOfLines]=GetForceCurveFromFV(filename,IsZ)
+function [Xtrace, Xretrace,Ytrace, Yretrace, xLabel, yLabel,SamplesPerLine,NumberOfLines,NumberOfCurves]=GetForceCurveFromFV(filename,IsZ)
 % this script was used to extract the force curve data from a Force Volume
 % file
 % inputs: filename
